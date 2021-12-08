@@ -6,8 +6,9 @@
 # Configure aws cli
 
 
-vagrant up terraform
-vagrant ssh terraform
+vagrant up terraform - to make ubuntu machine up 
+
+vagrant ssh terraform - to login into machine
 
 # To install in ubuntu machine
 sudo apt-get update
