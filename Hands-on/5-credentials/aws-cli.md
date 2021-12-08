@@ -1,4 +1,4 @@
-** Description**
+#  Description
 * From this example we can understand how you can secure your credentials using AWS command line utility.
 * To do this first we need to install `aws cli` tool in your virtual machine.
 * Follow the below steps to install `aws cli`
@@ -19,13 +19,15 @@ sudo apt-get install awscli
 # To check version 
 aws --version
 
+# To check configuration and enter your credentials of aws 
 - run `aws configure` command which will prompt for asking access & secret key
 aws configure
 - Then you can see credentials are stored as environment variable under file ~/.aws/credentials
 - Just do cat  ~/.aws/credentials to view the file.
 
+# View the credentials 
 cat ~/.aws/credentials
 
-# enter into root
+# Enter into root and execute terraform code
 sudo su
 cd /vagrant/data
